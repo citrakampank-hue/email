@@ -1,0 +1,13 @@
+name = "tempmail-email-handler"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[env.production]
+name = "tempmail-email-handler-prod"
+
+[vars]
+RAILWAY_URL = "https://your-app-name.up.railway.app"
+EMAIL_WEBHOOK_KEY = "your-secret-key-here"
+
+[triggers]
+crons = []

@@ -1,0 +1,8 @@
+aiosqlite==0.19.0
+fastapi==0.104.1
+python-telegram-bot==20.6
+uvicorn[standard]==0.24.0
+requests==2.31.0
+aiofiles==23.2.1
+email-validator==2.1.0
+python-multipart==0.0.6
